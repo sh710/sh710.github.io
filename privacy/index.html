@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for AI Workbench Ingestion.">
+  <title>Privacy Policy · AI Workbench Ingestion</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <main class="shell policy">
+    <header class="masthead">
+      <a class="brand" href="../" aria-label="AI Workbench Ingestion home">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>AI Workbench</span>
+      </a>
+      <a class="nav-link" href="../">Home</a>
+    </header>
+
+    <article>
+      <p class="eyebrow">AI Workbench Ingestion</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective">Effective 18 September 2026</p>
+
+      <div class="notice">
+        <strong>Scope.</strong>
+        AI Workbench Ingestion is a private application operated by its owner for
+        personal use. It is not offered as a public or multi-user service.
+      </div>
+
+      <h2>1. Information the application accesses</h2>
+      <p>
+        The application uses Google OAuth to access Google Drive on behalf of a
+        dedicated Google account. It may read and update:
+      </p>
+      <ul>
+        <li>file and folder names, identifiers, locations and other Drive metadata;</li>
+        <li>source documents stored within the configured AI Workbench source area;</li>
+        <li>Plaud transcript and summary packages written to that area; and</li>
+        <li>the ingestion manifest used to track source identity, revision and synchronisation status.</li>
+      </ul>
+      <p>
+        The Google Drive authorisation scope can technically permit access to files
+        available to the dedicated Google account. The application is separately
+        configured to reject operations outside its designated source-folder boundary.
+      </p>
+
+      <h2>2. How information is used</h2>
+      <p>Information is processed only to:</p>
+      <ul>
+        <li>capture authorised source records;</li>
+        <li>create or update source packages in Google Drive;</li>
+        <li>detect changed and unchanged records;</li>
+        <li>prevent duplicate ingestion; and</li>
+        <li>monitor the reliability and security of the ingestion process.</li>
+      </ul>
+      <p>
+        Google user data is not used for advertising, profiling, sale, or training a
+        publicly available machine-learning model.
+      </p>
+
+      <h2>3. Storage and processing</h2>
+      <p>
+        Source packages and manifests are stored in the owner's Google Drive. OAuth
+        credentials are stored in Google Secret Manager. Scheduled processing runs in
+        Google Cloud Run and uses temporary credential files that are removed when an
+        execution finishes.
+      </p>
+      <p>
+        Operational logs may contain technical identifiers, timestamps, execution
+        status and error details. The application is not designed to place transcript
+        contents or OAuth credentials in logs.
+      </p>
+
+      <h2>4. Disclosure</h2>
+      <p>
+        Information is not sold or disclosed to advertisers. It is transmitted only
+        as necessary to operate the application through Google Drive, Google Cloud and
+        Plaud services under the owner's accounts and instructions.
+      </p>
+
+      <h2>5. Retention and deletion</h2>
+      <p>
+        Source packages remain in Google Drive until the owner deletes them. Credential
+        versions and operational logs are retained according to the owner's Google
+        Cloud configuration and can be disabled or deleted by the owner.
+      </p>
+
+      <h2>6. Security</h2>
+      <p>
+        Controls include a dedicated Google identity, restricted Drive sharing,
+        application-enforced folder checks, encrypted credential storage and
+        least-privilege Google Cloud service accounts. No security control can eliminate
+        every risk, but access is intentionally limited to the personal ingestion purpose.
+      </p>
+
+      <h2>7. Google API data</h2>
+      <p>
+        Use and transfer of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noreferrer">
+          Google API Services User Data Policy
+        </a>, including its Limited Use requirements.
+      </p>
+
+      <h2>8. Revoking access</h2>
+      <p>
+        The owner can revoke the application's Google access at any time through the
+        security and third-party access settings of the relevant Google Account.
+        Revocation prevents future Drive synchronisation until access is authorised again.
+      </p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>
+        This policy may be updated if the application's data sources, processing,
+        storage or access model changes. The effective date above identifies the
+        current version.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        Questions about this application or policy can be sent to
+        <a href="mailto:sh710.ai@gmail.com">sh710.ai@gmail.com</a>.
+      </p>
+    </article>
+
+    <footer>
+      <a href="../">AI Workbench Ingestion</a>
+      <span>Privacy Policy</span>
+    </footer>
+  </main>
+</body>
+</html>
